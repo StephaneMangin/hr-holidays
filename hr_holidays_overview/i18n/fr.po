@@ -1,0 +1,271 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_holidays_overview
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-24 13:48+0000\n"
+"PO-Revision-Date: 2023-01-24 14:50+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. module: hr_holidays_overview
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_employee_leave_report__active
+msgid "Active"
+msgstr ""
+
+#. module: hr_holidays_overview
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_employee_leave_report__analytic_group_id
+msgid "Analytic Group"
+msgstr "Groupe analytique"
+
+#. module: hr_holidays_overview
+#: model:ir.model.fields.selection,name:hr_holidays_overview.selection__hr_employee_hour__state__validate
+#: model:ir.model.fields.selection,name:hr_holidays_overview.selection__hr_employee_leave_report__state__validate
+msgid "Approved"
+msgstr "Approuvé"
+
+#. module: hr_holidays_overview
+#: model_terms:ir.ui.view,arch_db:hr_holidays_overview.hr_employee_leave_report_search_view
+msgid "Archived"
+msgstr "Archivé"
+
+#. module: hr_holidays_overview
+#: model:ir.model.fields.selection,name:hr_holidays_overview.selection__hr_employee_hour__state__cancel
+#: model:ir.model.fields.selection,name:hr_holidays_overview.selection__hr_employee_leave_report__state__cancel
+msgid "Cancelled"
+msgstr "Annulé"
+
+#. module: hr_holidays_overview
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_employee_leave_report__company_id
+msgid "Company"
+msgstr "Société"
+
+#. module: hr_holidays_overview
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_employee_leave_report__date
+msgid "Date"
+msgstr ""
+
+#. module: hr_holidays_overview
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_employee_leave_report__dayofweek
+msgid "Day of Week"
+msgstr "Jour de semaine"
+
+#. module: hr_holidays_overview
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_employee_leave_report__days_qty
+msgid "Days"
+msgstr "Jours"
+
+#. module: hr_holidays_overview
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_employee_hour__unplanned
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_employee_leave_report__unplanned
+#: model_terms:ir.ui.view,arch_db:hr_holidays_overview.hr_employee_leave_report_search_view
+msgid "Unplanned"
+msgstr "Non planifié"
+
+#. module: hr_holidays_overview
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_employee_leave_report__days_qty_abs
+msgid "Days (abs)"
+msgstr "Jours (Absolus)"
+
+#. module: hr_holidays_overview
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_employee_hour__display_name
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_employee_leave_report__display_name
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_leave__display_name
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_leave_allocation__display_name
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_leave_type__display_name
+msgid "Display Name"
+msgstr "Nom affiché"
+
+#. module: hr_holidays_overview
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_employee_leave_report__employee_id
+#: model_terms:ir.ui.view,arch_db:hr_holidays_overview.hr_employee_leave_report_search_view
+msgid "Employee"
+msgstr "Employé"
+
+#. module: hr_holidays_overview
+#: model:ir.model,name:hr_holidays_overview.model_hr_employee_leave_report
+msgid "Employee leave report"
+msgstr ""
+
+#. module: hr_holidays_overview
+#: model_terms:ir.ui.view,arch_db:hr_holidays_overview.hr_employee_leave_report_search_view
+msgid "Group By"
+msgstr "Grouper par"
+
+#. module: hr_holidays_overview
+#: model:ir.model,name:hr_holidays_overview.model_hr_employee_hour
+msgid "HR Employee Hours per day"
+msgstr "Rapport d'heures des employés par jours"
+
+#. module: hr_holidays_overview
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_employee_leave_report__hours_qty
+msgid "Hours"
+msgstr "Heures"
+
+#. module: hr_holidays_overview
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_employee_leave_report__hours_qty_abs
+msgid "Hours (abs)"
+msgstr "Heures (absolues)"
+
+#. module: hr_holidays_overview
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_employee_hour__id
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_employee_leave_report__id
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_leave__id
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_leave_allocation__id
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_leave_type__id
+msgid "ID"
+msgstr ""
+
+#. module: hr_holidays_overview
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_employee_hour____last_update
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_employee_leave_report____last_update
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_leave____last_update
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_leave_allocation____last_update
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_leave_type____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: hr_holidays_overview
+#: model:ir.model.fields.selection,name:hr_holidays_overview.selection__hr_employee_hour__type__leave_allocation
+#: model:ir.model.fields.selection,name:hr_holidays_overview.selection__hr_employee_leave_report__type__leave_allocation
+msgid "Leave Allocation"
+msgstr "Allocation d'absence"
+
+#. module: hr_holidays_overview
+#: model:ir.model.fields.selection,name:hr_holidays_overview.selection__hr_employee_hour__type__leave_request
+#: model:ir.model.fields.selection,name:hr_holidays_overview.selection__hr_employee_leave_report__type__leave_request
+msgid "Leave Request"
+msgstr "Requête d'absence"
+
+#. module: hr_holidays_overview
+#: model:ir.actions.act_window,name:hr_holidays_overview.action_hr_employee_leave_report
+#: model:ir.ui.menu,name:hr_holidays_overview.menu_hr_employee_leave_report
+#: model_terms:ir.ui.view,arch_db:hr_holidays_overview.hr_employee_leave_report_graph_view
+#: model_terms:ir.ui.view,arch_db:hr_holidays_overview.hr_employee_leave_report_pivot_view
+#: model_terms:ir.ui.view,arch_db:hr_holidays_overview.hr_employee_leave_report_search_view
+#: model_terms:ir.ui.view,arch_db:hr_holidays_overview.hr_employee_leave_report_tree_view
+msgid "Leaves Report"
+msgstr "Rapport d'absences"
+
+#. module: hr_holidays_overview
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_employee_leave_report__manager_id
+msgid "Manager"
+msgstr "Responsable"
+
+#. module: hr_holidays_overview
+#: model_terms:ir.ui.view,arch_db:hr_holidays_overview.hr_employee_leave_report_search_view
+msgid "My report"
+msgstr "Mon rapport"
+
+#. module: hr_holidays_overview
+#: model_terms:ir.ui.view,arch_db:hr_holidays_overview.hr_employee_leave_report_search_view
+msgid "My team"
+msgstr "Mon équipe"
+
+#. module: hr_holidays_overview
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_employee_hour__name
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_employee_leave_report__name
+msgid "Name"
+msgstr "Nom"
+
+#. module: hr_holidays_overview
+#: model_terms:ir.actions.act_window,help:hr_holidays_overview.action_hr_employee_leave_report
+msgid "No data yet!"
+msgstr "Pas de données !"
+
+#. module: hr_holidays_overview
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_employee_leave_report__percentage
+msgid "Percentage"
+msgstr "Pourcentage"
+
+#. module: hr_holidays_overview
+#: model_terms:ir.ui.view,arch_db:hr_holidays_overview.hr_employee_leave_report_search_view
+msgid "Planned"
+msgstr "Planifié"
+
+#. module: hr_holidays_overview
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_employee_leave_report__project_id
+msgid "Project"
+msgstr "Projet"
+
+#. module: hr_holidays_overview
+#: model:ir.model.fields.selection,name:hr_holidays_overview.selection__hr_employee_hour__state__refuse
+#: model:ir.model.fields.selection,name:hr_holidays_overview.selection__hr_employee_leave_report__state__refuse
+msgid "Refused"
+msgstr "Refusé"
+
+#. module: hr_holidays_overview
+#: model:ir.model.fields.selection,name:hr_holidays_overview.selection__hr_employee_hour__state__validate1
+#: model:ir.model.fields.selection,name:hr_holidays_overview.selection__hr_employee_leave_report__state__validate1
+msgid "Second Approval"
+msgstr "Seconde validation"
+
+#. module: hr_holidays_overview
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_employee_hour__state
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_employee_leave_report__state
+msgid "State"
+msgstr "État"
+
+#. module: hr_holidays_overview
+#: model_terms:ir.ui.view,arch_db:hr_holidays_overview.hr_employee_leave_report_search_view
+msgid "This Year"
+msgstr "Cette année"
+
+#. module: hr_holidays_overview
+#: code:addons/hr_holidays_overview/models/hr_employee_hour.py:0
+#, python-format
+msgid "This employee hour should be an allocation or a request leave."
+msgstr "Cette ligne d'heure devrait être liée à une allocation ou à une demande de congés."
+
+#. module: hr_holidays_overview
+#: model:ir.model,name:hr_holidays_overview.model_hr_leave
+msgid "Time Off"
+msgstr "Congés"
+
+#. module: hr_holidays_overview
+#: model:ir.model,name:hr_holidays_overview.model_hr_leave_allocation
+msgid "Time Off Allocation"
+msgstr "Allocation de congés"
+
+#. module: hr_holidays_overview
+#: model:ir.model,name:hr_holidays_overview.model_hr_leave_type
+msgid "Time Off Type"
+msgstr "Type de congés"
+
+#. module: hr_holidays_overview
+#: model:ir.model.fields.selection,name:hr_holidays_overview.selection__hr_employee_hour__state__confirm
+#: model:ir.model.fields.selection,name:hr_holidays_overview.selection__hr_employee_leave_report__state__confirm
+msgid "To Approve"
+msgstr "À approuver"
+
+#. module: hr_holidays_overview
+#: model:ir.model.fields.selection,name:hr_holidays_overview.selection__hr_employee_hour__state__draft
+#: model:ir.model.fields.selection,name:hr_holidays_overview.selection__hr_employee_leave_report__state__draft
+msgid "To Submit"
+msgstr "À soumettre"
+
+#. module: hr_holidays_overview
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_employee_hour__type
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_employee_leave_report__type
+msgid "Type"
+msgstr ""
+
+#. module: hr_holidays_overview
+#: model_terms:ir.ui.view,arch_db:hr_holidays_overview.hr_employee_leave_report_search_view
+msgid "Until today"
+msgstr "Jusqu'à maintenant"
+
+#. module: hr_holidays_overview
+#: model:ir.model.fields,field_description:hr_holidays_overview.field_hr_employee_leave_report__user_id
+#: model_terms:ir.ui.view,arch_db:hr_holidays_overview.hr_employee_leave_report_search_view
+msgid "User"
+msgstr "Utilisateur"
